@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.conference {
+  height: 100%;
+  width: 100%;
+  background: #333;
+}
+.conference .remotes {
+  height: 100%;
+  width: 100%;
+  background: none;
+}
+.conference .remotes video {
+  width: 100%;
+  background: none;
+}
+.remotes video {
+  border-radius: 100%;
+}
+
+.conference .local {
+  max-width: 200px;
+  max-height: 200px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
